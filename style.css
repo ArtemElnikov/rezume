@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(175, 175, 175);
+    font-family: 'Lucida Sans',
+     'Lucida Sans Regular', 
+     'Lucida Grande', 
+     'Lucida Sans Unicode', 
+     Geneva, Verdana, sans-serif;
+}
+
+.avatar {
+    border:1px solid rgb(102, 78, 25);
+    border-top-width: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 5%;
+
+}
+
+.headerinf {
+    margin:10px auto 5px auto;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    font-size: 14px;
+    color: #002;
+    font-style: italic;
+    display:flex;
+}
+
+.text {
+     margin-bottom: 20px;
+     margin-right: 20px;
+     border:1px solid rgb(49, 49, 212);
+     border-top-width: 20px;
+     color: #002;
+     font-style: italic;
+     min-width: 170px;
+     width: 200px;
+     height: 285px;
+     box-shadow: 4px 4px 14px 
+     rgb(221, 221, 221);
+     padding: 15px;
+     padding-top: 0%;
+     border-radius: 5%;
+     background:rgb(207, 190, 190);
+}
+
+.infobox {
+    margin:10px auto 5px auto;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+}
+
+.info {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border:1px solid rgb(49, 49, 212);
+    border-top-width: 20px;
+    color: #002;
+    font-style: italic;
+    min-width: 170px;
+    width: 200px;
+    height: 285px;
+    box-shadow: 4px 4px 14px 
+    rgb(221, 221, 221);
+    padding: 15px;
+    padding-top: 0%;
+    border-radius: 5%;
+    background:rgb(207, 190, 190);
+}
+
+.link {
+    list-style-image:url("круглик.jpg");
+}
+
+.social {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border:1px solid rgb(49, 49, 212);
+    border-top-width: 20px;
+    color: #002;
+    font-style: italic;
+    min-width: 170px;
+    width: 200px;
+    height: 285px;
+    box-shadow: 4px 4px 14px 
+    rgb(221, 221, 221);
+    padding: 15px;
+    padding-top: 0%;
+    border-radius: 5%;
+    background:rgb(207, 190, 190);
+}
+
+a {
+    color: #002;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+.joblist { 
+    margin:10px auto 5px auto;
+    width: 100%;
+    min-width: 420px;
+    max-width: 800px;
+    padding: 15px;
+    border-radius: 5%;
+    border:1px solid rgb(49, 49, 212);
+    border-top-width: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #002;
+    font-style: italic;
+    box-shadow: 4px 4px 14px 
+    rgb(221, 221, 221);
+    background:rgb(207, 190, 190);
+}
+
+.job, .position, .years {
+    width: 30%;    
+
+}
+
+.contactme h2 {
+    text-align: center;
+}
+
+.formgroup label {
+display: block;
+font-size: 14px;
+color: #000102;
+}
+
+.formgroup input,
+.formgroup textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #a09e9e;
+    color: #000102;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .formgroup {
+    width:50%
+}
+
+.row > .formgroup:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    background-color: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+}
