@@ -5,117 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме</title>
-    <script src="./js.js" defer></script>
 </head>
 <body>
     <div class="container">
-    <div class="headerinf">
-                <img src="./я.jpg"
-                     alt="foto"
-                     class="avatar">
-        <div class="text">
-            <h2>Ельников Артём <br> Евгеньевич </h2> 
-            <p>32 года, инженер, джун.</p>
-        </div>
-        <div class="social">
-            <h2>
-                Мои социальные <br> сети
-            </h2>
-            <ul class="link">
-                <li>
-                    <a href="https://vk.com/tyoma199116">Вконтакте</a>                
-                </li>
-                <li>
-                    <a href="https://web.telegram.org/a/">Телеграм</a>
-                </li>
-                <li>
-                    <a href="https">Дискорд</a>
-                </li>
-            </ul>
-        </Div>
-        <div class="text">
-            <h2>Мои хобби</h2>
-            спорт, игры, музыка, <br> сон, котики, сериалы, <br> вёрстка, хостинг.
-        </div>
-    </div>
-    <div class="infobox">
-        <div class="info">
-            <h2>Мои хобби</h2>
-            спорт, игры, музыка, <br> сон, котики, сериалы, <br> вёрстка, хостинг.
-        </div>
-        <div class="info">
-            <h2>Мои хобби</h2>
-            спорт, игры, музыка, <br> сон, котики, сериалы, <br> вёрстка, хостинг.
-        </div>
-        <div class="info">
-            <h2>Мои хобби</h2>
-            спорт, игры, музыка, <br> сон, котики, сериалы, <br> вёрстка, хостинг.
-        </div>
-        <div class="info">
-            <h2>Мои хобби</h2>
-            спорт, игры, музыка, <br> сон, котики, сериалы, <br> вёрстка, хостинг.
-        </div>
-    </div>
-    <div class="joblist">
-        <div class="job">
-            Инженерные системы <br> Ставропольский бройлер <br> LiveLinux <br> SandBox
-        </div>
-        <div class="position">
-            инженер <br> техподдержка <br> инженер <br> инженер
-        </div>
-        <div class="years">
-            2021-2022 <br> 2022-2023 <br> 2023-2024 <br> 2024-now
-        </div>
-    </div>
-    <div class="contactme">
-        <h2>Связаться со мной</h2>
-        <form action="/">
-            <div class="row">
-                <div class="formgroup">
-                    <label for="name">Ваше имя:</label>
-                    <input type="text" id="name" placeholder="Введите имя">
-                </div>
-
-                <div class="formgroup">
-                    <label for="email">Ваше имя:</label>
-                <input type="email" id="email" placeholder="Введите email">
-                </div>
+        <div class="tab"><h2>Калькулятор</h2></div>
+            <div>
+                <input type="number" id="firstnum" >
             </div>
-
-            <div class="formgroup">
-            <label for="text">Ваше сообщение</label>
-            <textarea id="text" rows="2" cols="4" class="massage"></textarea>
-            </div>
-
-            <input class="btn" type="submit" value="Связаться">
-        </form>
-        
-    </div>
-
-    <div>
-        <div>
-            <input type="number" id="firstnum" value="5">
-        </div>
     
-        <div>
-            <input type="number" id="secondnum" value="4">
-        </div>
-        <div>
-            <button id="plus">+</button>
-            <button id="minus">-</button>
-            <button id="delenie">/</button>
-            <button id="umnojenie">*</button>
-        </div>
-        <div>
-            <button id="submit">
-                Вычислить
-            </button>
-        </div>
-        <div>
-            <h4>Результат:</h4>
-            <p id="result">49</p>
-        </div>
+            <div>
+                <input type="number" id="secondnum" >
+            </div>
+            <div>
+                <button class="operator">+</button>
+                <button class="operator">-</button>
+                <button class="operator">/</button>
+                <button class="operator">*</button>
+            </div>
+            <div>
+                <button id="submit">
+                    Вычислить
+                </button>
+            </div>
+            <div>
+                <h4>Результат:</h4>
+                <p id="result"></p>
+            </div>
     </div>
-</div>
+<script src="./index2.js" defer></script>
 </body>
 </html>
