@@ -1,6 +1,6 @@
 const resultElement = document.getElementById("result");
-const value1 = document.getElementById("firstnum").value;
-const value2 = document.getElementById("secondnum").value;
+const value1 = document.getElementById("firstnum");
+const value2 = document.getElementById("secondnum");
 const submitBtn = document.getElementById("submit");
 
 const operatorsArray = document.querySelectorAll(".operator");

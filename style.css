@@ -32,19 +32,19 @@ body {
     Geneva, Verdana, sans-serif;
 }
 
-.row {
-    display: flex;
-    margin-bottom: 20px;
+.form-control {
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #200a0a;
+    color: #000102;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
 }
-
-.row > .formgroup {
-    width:50%
-}
-
-.row > .formgroup:first-child {
-    margin-right: 20px;
-}
-
 
 .operator,
 #submit
@@ -56,14 +56,67 @@ body {
     margin: 14px 0;
 }
 
+.btnCreate {
+    background-color: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    margin: 14px 0;
+    width: 50%;
+}
+
 .operator:hover,
-#submit:hover {
+#submit:hover,
+.btnCreate:hover,
+.btn-small-done:hover,
+.btn-small-delete:hover {
     color: rgb(4, 170, 40);
 }
 
-p {
+#result {
     padding: 10px;
     margin: 0 auto;
     width: max-content;
     border: 2px solid #000102;
+}
+
+.container-task {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%
+}
+
+hr {
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent);
+    border: 0;
+    height: 1px;
+    margin: 50px 0 50px 0;box-sizing:
+    content-box;
+    display: block;
+}
+
+.list-group {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0 auto;
+    min-width: 48.6%;
+    max-width: max-content;
+    border: 1px solid #000102;
+}
+
+.btn-small-done{
+    background-color: #338b0a;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+}
+
+.btn-small-delete {
+    background-color: #7a0c0c;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
 }
